@@ -19,4 +19,10 @@
    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" 
 	   p:prefix="/WEB-INF/page/" 
 	   p:suffix=".jsp"/>
+	   
+	<!-- EasyUI样式，JS配置 -->  
+	<!-- <mvc:annotation-driven/>   -->
+	<mvc:resources location="/commons/easyui/" mapping="/commons/easyui/**" ></mvc:resources>  
+	<mvc:resources location="/"  mapping="/**" ></mvc:resources>   
+	<!-- EasyUI样式，JS配置  -->  
 </beans>

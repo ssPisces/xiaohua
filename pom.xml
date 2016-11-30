@@ -137,5 +137,20 @@
             <version>7.0</version>  
             <scope>provided</scope>  
         </dependency>
+        
+        <!--在jsp文件中使用c标签的时候首先（jstl.jar和standard.jar）  --> 
+		<dependency>
+		    <groupId>jstl</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>1.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/taglibs/standard -->
+		<dependency>
+		    <groupId>taglibs</groupId>
+		    <artifactId>standard</artifactId>
+		    <version>1.1.2</version>
+		</dependency>
+		
+        
     </dependencies>
 </project>
